@@ -5,8 +5,10 @@ using namespace std;
 
 int main(){
     int num, product = 1;
+    
     cout<<"Enter a positive number: ";
     cin>>num;
+    
     if(num==0){
         cout<<"Product of digits is: 0";
     }
@@ -20,5 +22,6 @@ int main(){
         }
         cout<<"Product of digits is: "<<product;
     }
+    
     return 0;
 }
