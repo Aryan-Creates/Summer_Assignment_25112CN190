@@ -5,6 +5,7 @@ using namespace std;
 
 int main(){
     int num1, num2, gcd, i;
+    
     cout<<"Enter two numbers: "<<endl;
     cin>>num1>>num2;
 
@@ -13,6 +14,7 @@ int main(){
             gcd=i;
         }
     }
+    
     cout<<"GCD of "<<num1<<" and "<<num2<<" is: "<<gcd;
     return 0;
 }
