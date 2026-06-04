@@ -13,6 +13,7 @@ int main(){
 
     for(int i=1; i<=num; i++){
         cout<<PrevNum<<" ";
+        
         NextNum = PrevNum + CurrNum;
         PrevNum = CurrNum;
         CurrNum = NextNum;
