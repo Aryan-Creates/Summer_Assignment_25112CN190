@@ -13,9 +13,9 @@ int main(){
     cin>>end;
 
     for(i=start; i<=end; i++){
-    num = i;
-    digit=0;
-    sum=0;
+        num = i;
+        digit=0;
+        sum=0;
 
     while(num>0){
         digit++;
