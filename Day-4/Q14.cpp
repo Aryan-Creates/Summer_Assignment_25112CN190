@@ -13,10 +13,12 @@ int main(){
 
     for(int i=1; i<num; i++){
         // cout<<PrevNum<<" ";  //Reference to previous question
+        
         NextNum = PrevNum + CurrNum;
         PrevNum = CurrNum;
         CurrNum = NextNum;
     }
+    
     cout<<"The "<<num<<"th term of fibonacci series is: "<<PrevNum;  
     return 0;
 }
