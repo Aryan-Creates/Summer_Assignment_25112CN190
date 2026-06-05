@@ -21,6 +21,5 @@ int main(){
     else{
         cout<<num<<" is not a perfect number.";
     }
-    
     return 0;
 }
