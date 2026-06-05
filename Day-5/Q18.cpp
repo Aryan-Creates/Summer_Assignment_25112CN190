@@ -17,10 +17,13 @@ int main(){
     }
     else{
         num=ognum;
+        
         while(num>0){
+            
             rem = num%10;
             num = num/10;
             fact = 1;
+            
             for(int i=1; i<=rem; i++){
                 fact = fact*i;
             }
