@@ -1,4 +1,4 @@
-//Write a program to Print reverse star pattern.
+//WAP to Print reverse star pattern.
 
 #include <iostream>
 using namespace std;
