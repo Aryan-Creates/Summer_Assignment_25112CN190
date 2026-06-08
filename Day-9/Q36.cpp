@@ -1,4 +1,4 @@
-//Write a program to Print hollow square pattern.
+//WAP to Print hollow square pattern.
 
 #include <iostream>
 using namespace std;
