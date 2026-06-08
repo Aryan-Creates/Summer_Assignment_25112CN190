@@ -1,4 +1,4 @@
-//Write a program to Print repeated character pattern.
+//WAP to Print repeated character pattern.
 
 #include <iostream>
 using namespace std;
